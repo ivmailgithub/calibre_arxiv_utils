@@ -1,10 +1,10 @@
 from calibre.customize import InterfaceActionBase
 
 class SmartTitleFixer(InterfaceActionBase):
-    name = 'Smart Title Fixer'
+    name = 'CalibreDupTitleFixer'
     description = 'Fix duplicate titles using filenames, with preview, undo, and settings'
     supported_platforms = ['windows', 'osx', 'linux']
-    author = 'You'
+    author = 'copilot prompt'
     version = (1, 2, 0)
     minimum_calibre_version = (5, 0, 0)
     actual_plugin = 'action.py'
